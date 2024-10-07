@@ -1,0 +1,76 @@
+.sudokuBoard {
+    display: inline-grid;
+    grid-template-columns: repeat(9, 0.9fr);
+    border: 5px solid black;
+}
+
+.sudokuCell {
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    align-content: center;
+    font-size: 20px;
+    background-color: antiquewhite;
+    border: 1px solid black;
+}
+
+.sudokuCell:nth-child(3) {
+    border-bottom: 3px solid black;
+}
+
+.sudokuCell:nth-child(6) {
+    border-bottom: 3px solid black;
+}
+
+.sudokuRow:nth-child(3) {
+    border-right: 3px solid black;
+}
+
+.sudokuRow:nth-child(6) {
+    border-right: 3px solid black;
+}
+
+.sudokuInput {
+    width: 48px;
+    height: 48px;
+    text-align: center;
+    font-size: 20px;
+    border: 0px solid black;
+    background-color: white;
+}
+
+.difficultyButtons {
+    margin-bottom: 20px;
+}
+
+.difficultyButtons button {
+    margin: 0 10px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    background-color: #007BFF;
+    color: white;
+    transition: background-color 0.3s;
+}
+
+.difficultyButtons button:hover {
+    background-color: #0056b3;
+}
+
+.checkSolutionButton {
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    background-color: red;
+    color: white;
+    transition: background-color 0.3s;
+}
+
+.checkSolutionButton:hover {
+    background-color: darkred;
+}

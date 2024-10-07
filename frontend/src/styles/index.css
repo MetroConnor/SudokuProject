@@ -1,0 +1,15 @@
+.Board {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+.App {
+  text-align: center;
+}
+
+h1 {
+  font-family: Helvetica;
+}
+
+
